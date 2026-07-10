@@ -359,7 +359,7 @@ const App: React.FC = () => {
 
             <div className="relative aspect-video w-full rounded-2xl overflow-hidden border border-stone-800 bg-stone-950 shadow-[0_0_50px_rgba(197,160,89,0.06)]">
               <iframe
-                src="https://youtu.be/VNou_nTCO_s"
+                src="https://www.youtube.com/watch?v=VNou_nTCO_s"
                 title="Propuesta Visual - Golden Palms Orlando"
                 className="absolute inset-0 w-full h-full border-0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
