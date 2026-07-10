@@ -70,7 +70,7 @@ const App: React.FC = () => {
           </div>
           
           <div className="hidden lg:flex items-center gap-8 text-xs font-semibold tracking-[0.15em] text-stone-400">
-            <a href="#estandar" onClick={scrollToSection('estandar')} className="hover:text-nobel-gold transition-colors cursor-pointer uppercase">1% Estandar</a>
+            <a href="#estandar" onClick={scrollToSection('estandar')} className="hover:text-nobel-gold transition-colors cursor-pointer uppercase">1% Estándar</a>
             <a href="#auditoria" onClick={scrollToSection('auditoria')} className="hover:text-nobel-gold transition-colors cursor-pointer uppercase">Auditoría</a>
             <a href="#canal-directo" onClick={scrollToSection('canal-directo')} className="hover:text-nobel-gold transition-colors cursor-pointer uppercase">Canal Directo</a>
             <a href="#ia-motores" onClick={scrollToSection('ia-motores')} className="hover:text-nobel-gold transition-colors cursor-pointer uppercase">Motores IA</a>
@@ -359,7 +359,7 @@ const App: React.FC = () => {
 
             <div className="relative aspect-video w-full rounded-2xl overflow-hidden border border-stone-800 bg-stone-950 shadow-[0_0_50px_rgba(197,160,89,0.06)]">
               <iframe
-                src="https://www.youtube.com/watch?v=VNou_nTCO_s"
+                src="https://www.youtube.com/embed/VNou_nTCO_s"
                 title="Propuesta Visual - Golden Palms Orlando"
                 className="absolute inset-0 w-full h-full border-0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
